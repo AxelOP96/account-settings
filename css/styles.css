@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(240, 237, 237);
+    font-family: "Raleway", sans-serif;
+}
+.container{
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 500px;
+    gap: 10px;
+}
+.card{
+    background-color: white;
+    border-radius: 2px;
+    padding: 15px;
+    box-shadow: 3px 8px 18px 0px rgba(123, 122, 122, 0.75);
+}
+.title{
+    font-size: 16px;
+}
+.text{
+    color:rgb(192, 190, 190);
+    font-size: 12px;
+}
+.bold{
+    font-weight: bold;
+}
+.icon{
+    width: 40px;
+    margin-right: 10px;
+}
+.margin{
+    margin: 15px 0;
+}
+.center{
+    text-align: center;
+}
+.row{
+    display: flex;
+}
+.justify{
+    justify-content: space-between;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.grey{
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.white{
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.add{
+    color:rgb(216, 181, 28);
+    border: 1px solid rgb(240, 237, 237);
+    outline: none;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 16px;
+}
+.yellow{
+    color:rgb(216, 181, 28);
+}
